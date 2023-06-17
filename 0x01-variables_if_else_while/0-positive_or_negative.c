@@ -5,11 +5,12 @@
 /**
  * main - Checks if a random number is +ve or -ve
  *
- * Return: Always 0
+ * Return: Always zero
  */
 int main(void)
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
