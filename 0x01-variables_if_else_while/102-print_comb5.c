@@ -10,13 +10,13 @@ int main(void)
 	int i, f, h, j, param1, param2;
 
 	i = f = h = j = 48;
-	while ( j < 58)
+	while (j < 58)
 	{
 		h = 48;
-		while(h < 58)
+		while (h < 58)
 		{
 			f = 48;
-			while( f <58)
+			while (f < 58)
 			{
 				i = 48;
 				while (i < 58)
