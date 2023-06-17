@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints the first 10 numbers
+ * main - reverse alphabets
  *
  * Return: zero
  */
@@ -9,9 +9,9 @@ int main(void)
 {
 	int num;
 
-	for (num = 0; num < 10; num++)
+	for (num = 122; num > 96; num--)
 	{
-		printf("%d", num);
+		putchar(i);
 	}
 	putchar('\n');
 	return (0);
