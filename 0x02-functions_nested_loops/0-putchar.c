@@ -11,10 +11,4 @@ int main(void)
 	int count, size;
 
 	size = sizeof(str) / sizeof(int);
-	for (count = 0; count < size; count++)
-	{
-		_putchar(str[count]);
-	}
-	_putchar('\n');
-	return (0);
-}
+	for (count = 0; count < size
