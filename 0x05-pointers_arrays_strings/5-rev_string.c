@@ -10,7 +10,7 @@ void rev_string(char *s)
 	int count = 0, i, j;
 	char *str, tmp;
 
-	while (count >= 0 )
+	while (count >= 0)
 	{
 		if (s[count] == '\0')
 			break;
@@ -23,7 +23,7 @@ void rev_string(char *s)
 		for (j = i + 1; j > 0; j--)
 		{
 			tmp = *(str + j);
-			*(str + j) = *(str + (j -1));
+			*(str + j) = *(str + (j - 1));
 			*(str + (j - 1)) = tmp;
 		}
 	}
