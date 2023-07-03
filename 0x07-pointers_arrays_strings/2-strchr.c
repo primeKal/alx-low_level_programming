@@ -6,7 +6,7 @@
  * @s: string
  * @c: char to search
  *
- * Return" a point to first occurence of c
+ * Return: a point to first occurence of c
  */
 char *_strchr(char *s, char c)
 {
