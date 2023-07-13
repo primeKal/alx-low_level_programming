@@ -9,7 +9,7 @@
  *
  * Return: pointer to new string
  */
-char *_str_concat(char *s1, char s2)
+char *_str_concat(char *s1, char *s2)
 {
 	char *s3;
 	unsigned int i = 0, j = 0, len1 = 0, len2 = 0;
