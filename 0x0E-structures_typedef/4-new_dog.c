@@ -23,7 +23,7 @@ int _strlen(char *s)
 }
 
 /**
- * *-strcpy - copies string pointed by src
+ * *_strcpy - copies string pointed by src
  * @dest: destination string
  * @src: source string
  *
