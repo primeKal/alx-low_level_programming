@@ -1,10 +1,10 @@
-#include <stdlib.h>
+#include <stdio.h>
 
 
 /**
  * main - prints the name of file
  *
- * Return: always 0
+ * Return: always zero
  */
 int main(void)
 {
