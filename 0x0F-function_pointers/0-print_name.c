@@ -6,9 +6,9 @@
  * @name: name to print
  * @f: pointer to the orinting function
  *
- * Reurn: notunig
+ * Return: notunig
  */
-void print_number(char *name, void (*f)(char *))
+void print_name(char *name, void (*f)(char *))
 {
 	if (name && f)
 		f(name);
